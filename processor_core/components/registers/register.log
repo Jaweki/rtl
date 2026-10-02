@@ -1,0 +1,8 @@
+VCD info: dumpfile register.vcd opened for output.
+PASS reset clears
+PASS ores d when en=0
+PASS oads d when en=1
+PASS holds value
+PASS reset again
+REGISTER: ALL TESTS PASSED
+register-tb.v:36: $finish called at 46000 (1ps)
