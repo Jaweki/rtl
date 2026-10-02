@@ -1,0 +1,33 @@
+@page { size: A4; }
+body { font-family: "DejaVu Sans", Arial, sans-serif; font-size: 10pt; line-height: 1.45; color: #111827; max-width: none; margin: 0; padding: 0; }
+header#title-block-header { border-bottom: 3px solid #1d4ed8; margin-bottom: 14px; padding-bottom: 8px; }
+h1.title { font-size: 24pt; margin: 0 0 4px 0; color: #1e3a8a; }
+p.subtitle { font-size: 11.5pt; color: #374151; margin: 0; }
+h1 { font-size: 17pt; color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 3px; margin-top: 26px; page-break-before: auto; page-break-after: avoid; }
+/* each component chapter starts on a new page */
+h1[id^="alu"], h1[id^="branch-comparator"], h1[id^="immediate-generator"], h1[id^="generic-register"],
+h1[id^="program-counter"], h1[id^="register-file"], h1[id^="instruction-memory"], h1[id^="data-memory"],
+h1[id^="complete-expected"] { page-break-before: always; }
+h2 { font-size: 12.5pt; color: #1d4ed8; margin-top: 16px; page-break-after: avoid; }
+p, li { orphans: 3; widows: 3; }
+code { font-family: "DejaVu Sans Mono", monospace; font-size: 8.6pt; background: #f1f5f9; padding: 0 2px; border-radius: 2px; }
+pre { background: #f8fafc; border: 1px solid #cbd5e1; border-left: 4px solid #1d4ed8; padding: 7px 9px; page-break-inside: avoid; white-space: pre-wrap; word-wrap: break-word; }
+pre code { background: none; padding: 0; font-size: 8pt; line-height: 1.35; }
+table { border-collapse: collapse; width: 100%; margin: 8px 0 12px 0; font-size: 8.8pt; page-break-inside: auto; }
+thead { display: table-header-group; }
+tr { page-break-inside: avoid; }
+th { background: #1e3a8a; color: #fff; text-align: left; padding: 4px 6px; border: 1px solid #1e3a8a; }
+td { padding: 3.5px 6px; border: 1px solid #cbd5e1; vertical-align: top; word-wrap: break-word; }
+tbody tr:nth-child(even) td { background: #f1f5f9; }
+blockquote { margin: 10px 0; padding: 6px 12px; background: #eff6ff; border-left: 4px solid #3b82f6; color: #1f2937; page-break-inside: avoid; }
+blockquote p { margin: 3px 0; }
+figure { margin: 10px 0; page-break-inside: avoid; text-align: center; }
+figure img { width: 100%; border: 1px solid #e5e7eb; }
+figcaption { font-size: 8.8pt; color: #4b5563; font-style: italic; margin-top: 3px; }
+nav#TOC { page-break-after: always; }
+nav#TOC ul { list-style: none; padding-left: 14px; }
+nav#TOC > ul { padding-left: 0; }
+nav#TOC a { text-decoration: none; color: #1e3a8a; }
+
+th code { background: transparent; color: #ffffff; }
+th, th * { color: #ffffff; }
