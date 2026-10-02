@@ -11,7 +11,7 @@ TESTS = components/alu/alu \
         components/memory_devices/instruction-memory \
         components/memory_devices/data-memory
 
-.PHONY: test clean
+.PHONY: test clean wave
 
 test:
 	@fail=0; \
@@ -26,3 +26,7 @@ test:
 
 clean:
 	find . -name "*.out" -o -name "*.vcd" -o -name "*.log" | xargs rm -f
+
+# Open one component's waveform with the right signals and zoom:  make wave C=alu
+wave:
+	@./docs/view_wave.sh $(C)

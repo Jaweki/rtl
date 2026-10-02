@@ -1,0 +1,12 @@
+VCD info: dumpfile immediate_generator.vcd opened for output.
+PASS  x1,x0,5     (I)
+PASS x0,-1    (I neg)
+PASS 2,8(x1)      (S)
+PASS (x1)     (S neg)
+PASS x1,x2,+12    (B)
+PASS 2,-4     (B neg)
+PASS x1,0x12345   (U)
+PASS x1,+16       (J)
+PASS 16       (J neg)
+IMMEDIATE GENERATOR: ALL TESTS PASSED
+immediate-generator-tb.v:35: $finish called at 90000 (1ps)
