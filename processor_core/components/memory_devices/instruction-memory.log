@@ -1,9 +1,0 @@
-WARNING: instruction-memory.v:21: $readmemh(imem_test.hex): Not enough words in the file for the requested range [0:15].
-VCD info: dumpfile instruction_memory.vcd opened for output.
-PASS word 0
-PASS word 1
-PASS word 2
-PASS aps to same word
-PASS used word is NOP
-INSTRUCTION MEMORY: ALL TESTS PASSED
-instruction-memory-tb.v:31: $finish called at 5000 (1ps)

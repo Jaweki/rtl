@@ -1,8 +1,0 @@
-VCD info: dumpfile program_counter.vcd opened for output.
-PASS reset value
-PASS sequential steps
-PASS jump to 0x100
-PASS ld when disabled
-PASS reset again
-PROGRAM COUNTER: ALL TESTS PASSED
-program-counter-tb.v:49: $finish called at 66000 (1ps)
