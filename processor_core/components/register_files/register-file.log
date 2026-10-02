@@ -1,0 +1,7 @@
+VCD info: dumpfile register_file.vcd opened for output.
+PASS two read ports
+PASS x0 stays zero
+PASS  write when we=0
+Checked x1..x31 read-back
+REGISTER FILE: ALL TESTS PASSED
+register-file-tb.v:60: $finish called at 377000 (1ps)
